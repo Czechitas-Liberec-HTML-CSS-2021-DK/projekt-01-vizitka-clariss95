@@ -1,17 +1,37 @@
 
 h1 {
     font-family: 'Playfair Display', serif;
-    color: black;
+    color: rgb(51, 47, 47);
     font-size: 80px;
     text-align: center;
     font-style: italic;
-    
+    margin: 0;  
 }
 
 
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 0;
+}
+
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
 
 
-/*font-family: 'Noto Sans Display', sans-serif;*/
 
 .kulaty_obrazek {
     width: 200px;
@@ -26,3 +46,25 @@ h1 {
     height: auto;
     margin-top: -35px;
 }
+
+
+.omne {
+    background-color:#88BDBC;
+   
+}
+
+.kontakt {
+    background-color: #254E58;
+}
+
+.kontakt img {
+    width: 100px;
+}
+
+footer {
+    background-color: #112D32;
+    color: white;
+}
+
+/* color schemes -- paticka: #112D32, sekce modra #88BDBC, sekce bila, sekce tmavsi modra(?) #254E58 
+https://visme.co/blog/website-color-schemes/ */ 
