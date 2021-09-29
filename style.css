@@ -1,0 +1,28 @@
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 80px;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+
+
+
+/*font-family: 'Noto Sans Display', sans-serif;*/
+
+.kulaty_obrazek {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.kulaty_obrazek img {
+    width: 100%;
+    height: auto;
+    margin-top: -35px;
+}
