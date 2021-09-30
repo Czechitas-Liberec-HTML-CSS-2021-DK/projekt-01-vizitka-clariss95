@@ -1,10 +1,10 @@
 
 h1 {
     font-family: 'Playfair Display', serif;
-    color: rgb(51, 47, 47);
+    color: white;
     font-size: 80px;
     text-align: center;
-    font-style: italic;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.7);
     margin: 0;  
 }
 
@@ -74,6 +74,12 @@ a {
     color: white;
 }
 
+a:hover,
+a:focus,
+a:active {
+    color: #0b1d20;
+}
+
 footer {
     background-color: #0b1d20;
     color: white;
@@ -81,6 +87,13 @@ footer {
     padding: 20px 0;
 }
 
+header {
+    background-image: url(obrazky/les.png);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 /* color schemes -- paticka: #112D32 ? #4F4A41, sekce modra #88BDBC, sekce tmavsi modra(?) #254E58 
 https://visme.co/blog/website-color-schemes/ */ 
