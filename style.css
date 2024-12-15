@@ -1,0 +1,99 @@
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+a {
+    font-style: italic;
+}
+
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+section {
+    padding: 50px 15%;
+    overflow: auto;
+}
+
+.kulaty_obrazek {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.kulaty_obrazek img {
+    width: 100%;
+    height: auto;
+    margin-top: -35px;
+}
+
+.omne {
+    background-color: #88BDBC;
+}
+
+.kontakt {
+    background-color: #254E58;
+}
+
+ion-icon {
+    font-size: 40px;
+    margin: 50px 0px;
+}
+
+.social_icon {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #0b1d20;
+}
+
+footer {
+    background-color: #0b1d20;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header {
+    background-image: url(obrazky/les.png);
+    padding: 150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* color schemes -- 
+paticka: #0b1d20, 
+sekce svetle modra #88BDBC, 
+sekce tmave modra #254E58 
+https://visme.co/blog/website-color-schemes/ */
